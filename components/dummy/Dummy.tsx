@@ -1,14 +1,20 @@
-import { Flex } from '@theme-ui/components';
+import { Flex, Text } from '@theme-ui/components';
+import { ThemeUICSSObject } from 'theme-ui';
 
 export interface Props {
-  value: string;
+  text: string;
 }
 
-const Dummy: React.FC<Props> = ({ value = '' }) => {
-  return <Flex sx={Styles}>{value}</Flex>;
+const Dummy: React.FC<Props> = (props) => {
+  return (
+    <Flex sx={Styles}>
+      <Text>{props.text}</Text>
+      {props.children}
+    </Flex>
+  );
 };
 
-const Styles = {
+const Styles: ThemeUICSSObject = {
   // values referencing scales defined in a theme
   color: 'primary',
   bg: 'lightgray',

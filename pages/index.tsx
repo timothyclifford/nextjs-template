@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           alignItems: 'center',
         }}
       >
-        <Dummy value="Hello World"></Dummy>
+        <Dummy text="Hello World"></Dummy>
       </Flex>
     </>
   );

@@ -12,5 +12,5 @@ const Template: Story<Props> = (args) => <Dummy {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  value: 'This is a test',
+  text: 'This is a test',
 };

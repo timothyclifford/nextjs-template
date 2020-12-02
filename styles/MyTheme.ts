@@ -1,6 +1,7 @@
 import { dark } from '@theme-ui/presets';
+import { Theme } from 'theme-ui';
 
-const Theme = {
+const MyTheme: Theme = {
   ...dark,
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fonts: {
@@ -114,4 +115,4 @@ const Theme = {
   },
 };
 
-export default Theme;
+export default MyTheme;

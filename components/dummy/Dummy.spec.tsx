@@ -4,7 +4,7 @@ import React from 'react';
 import Dummy, { Props } from './Dummy';
 
 const DEFAULT_PROPS: Props = {
-  value: '',
+  text: '',
 };
 
 const renderComponent = (props = {}) => {
