@@ -15,9 +15,12 @@
   "dependencies": {
     "@theme-ui/components": "^0.3.4",
     "@theme-ui/presets": "^0.3.4",
+    "firebase-admin": "^9.4.0",
+    "firebase": "^8.0.2",
     "next": "10.0.3",
-    "react": "17.0.1",
+    "nookies": "^2.5.0",
     "react-dom": "17.0.1",
+    "react": "17.0.1",
     "theme-ui": "^0.3.4"
   },
   "devDependencies": {
